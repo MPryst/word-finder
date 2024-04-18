@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.WordFinder.Console", "WordFinder\Challenge.WordFinder.Console.csproj", "{2CB28F95-5243-4D42-A80A-785621C92E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenge.WordFinder.Console", "Challenge.WordFinder.Console\Challenge.WordFinder.Console.csproj", "{2CB28F95-5243-4D42-A80A-785621C92E9B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challente.WordFinder.Tests", "Challente.WordFinderTestss\Challente.WordFinder.Tests.csproj", "{374E283C-D1DF-46A0-8767-572A424C3C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challente.WordFinder.Tests", "Challente.WordFinderTests\Challente.WordFinder.Tests.csproj", "{374E283C-D1DF-46A0-8767-572A424C3C2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.WordFinder.Library", "Challenge.WordFinder.Library\Challenge.WordFinder.Library.csproj", "{F3E37926-A44D-43BF-B821-C8F41136792E}"
 EndProject
