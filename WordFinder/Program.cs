@@ -1,4 +1,4 @@
-﻿using Challenge.WordFinder;
+﻿using Challenge.WordFinder.Library;
 
 var matrix = new List<string>
 {

@@ -1,6 +1,4 @@
-﻿
-
-namespace Challenge.WordFinder
+﻿namespace Challenge.WordFinder.Library
 {
 	public class WordFinder
 	{
@@ -47,7 +45,7 @@ namespace Challenge.WordFinder
 
 			var result = wordstreamResult
 				.OrderByDescending(x => x.Occurrences)
-				.Where( x => x.Occurrences > 0)
+				.Where(x => x.Occurrences > 0)
 				.Take(10)
 				.Select(x => x.Word);
 
@@ -81,7 +79,7 @@ namespace Challenge.WordFinder
 				return false;
 
 			for (var index = coordinate.Column; index <= coordinate.Column + word.Length - 1; index++)
-			{				
+			{
 				if (Matrix.ElementAt(coordinate.Row)[index] != word[Math.Abs(index - coordinate.Column)])
 					return false;
 			}
@@ -95,7 +93,7 @@ namespace Challenge.WordFinder
 				return false;
 
 			for (var index = coordinate.Row; index <= coordinate.Row + word.Length - 1; index++)
-			{				
+			{
 				if (Matrix.ElementAt(index)[coordinate.Column] != word[Math.Abs(index - coordinate.Row)])
 					return false;
 			}
